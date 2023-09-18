@@ -1,0 +1,12 @@
+A = {100,7,8}
+B = {200,4,5}
+C = {300,2,3}
+D = {100,200,300}
+result_a = A.union(B)
+print("a. A U B =",result_a)
+result_b = B.union(C)
+print("b. B U C =",result_b)
+result_c = B.union(C,D)
+print("c. B U C U D =",result_c)
+result_d = A.union(B,C,D)
+print("d. A U B =",result_d)
