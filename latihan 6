@@ -1,0 +1,11 @@
+A = {'a''b','c','d'}
+B = {'c','d','e'}
+C = {}
+result_a = A.symmetric_difference(B)
+print ("a. A symmetric_difference B =",result_a)
+result_b = B.symmetric_difference(A)
+print ("b. B symmetric_difference A =",result_b)
+result_c = A.symmetric_difference(C)
+print ("c. A symmetric_difference C =",result_c)
+result_d = B.symmetric_difference(C)
+print ("d. B symmetric_difference C =",result_d)
